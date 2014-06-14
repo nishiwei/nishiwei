@@ -40,8 +40,16 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    ejs (1.0.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    haml (4.0.5)
+      tilt
+    haml-rails (0.4)
+      actionpack (>= 3.1, < 4.1)
+      activesupport (>= 3.1, < 4.1)
+      haml (>= 3.1, < 4.1)
+      railties (>= 3.1, < 4.1)
     hike (1.2.3)
     i18n (0.6.1)
     journey (1.0.4)
@@ -74,6 +82,10 @@ GEM
       activesupport (= 3.2.13)
       bundler (~> 1.0)
       railties (= 3.2.13)
+    rails-backbone (0.7.2)
+      coffee-script (~> 2.2.0)
+      ejs (~> 1.0.0)
+      railties (>= 3.1.0)
     railties (3.2.13)
       actionpack (= 3.2.13)
       activesupport (= 3.2.13)
@@ -114,8 +126,10 @@ PLATFORMS
 DEPENDENCIES
   anemone
   coffee-rails (~> 3.2.1)
+  haml-rails
   jquery-rails
   rails (= 3.2.13)
+  rails-backbone
   rest_client
   sass-rails (~> 3.2.3)
   sqlite3
